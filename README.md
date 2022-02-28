@@ -2,20 +2,4 @@
 
 ## 开始
 
-安装依赖
-
-```bash
-$ npm i
-```
-
-书写示例
-
-```bash
-$ npm start
-```
-
-文档编辑
-
-```bash
-$ npm run doc:dev
-```
+[css参考博客](https://geyao.blog.csdn.net/article/details/114155198)

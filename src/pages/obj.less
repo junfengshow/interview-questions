@@ -1,0 +1,37 @@
+section{
+  height: 100%; 
+  overflow: hidden;
+  clear: both; 
+}
+.left{ 
+  height: 100%;
+  float: left;
+  width: 30%;
+  background: #f00; 
+}
+.right{ 
+  height: 100%;
+  float: right;
+  width: 30%; 
+  background: #0f0; 
+}
+.center{ 
+  height: 100%;
+  background: #00f;
+}
+
+
+.a-container { 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a-left{ height: 100%;flex-basis: 30%;background: #f00; }
+.a-right{ height: 100%;flex-basis: 30%;background: #0f0; }
+.a-center{ height: 100%;background: #00f; flex: 1 1 auto; }
+
+.b-container{ height: 100%;position: relative;}
+.b-left{ height: 100%;width: 30%;background: #f00;position: absolute;left:0;top:0; }
+.b-right{ height: 100%;width: 30%;background: #0f0;position: absolute;right:0;top:0; }
+.b-center{ height: 100%;background: #00f;margin:0 30%; }

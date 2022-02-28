@@ -13,7 +13,8 @@
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "noImplicitThis": false
   },
   "exclude": [
     "node_modules",
@@ -23,7 +24,6 @@
     "typings",
     "**/__test__",
     "test",
-    "docs",
     "tests"
   ]
 }

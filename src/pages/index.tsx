@@ -1,10 +1,18 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+// Number.prototype.plus = function (a) {
+//   return this + a;
+// }
+// var a = 2;
+// console.log(a.plus(1))
 export default () => {
   return (
-    <div>
-      <Link to="/binary">二进制</Link>
-    </div>
+    <ul>
+      <li><Link to="/binary">二进制</Link></li>
+      <li><Link to="/obj">对象</Link></li>
+      <li><Link to="/graph">图</Link></li>
+    </ul>
   )
 }
 

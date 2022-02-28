@@ -4,7 +4,7 @@ export default defineConfig({
   mode: 'site',
   outputPath: 'doc-dist',
 
-  title: '面试题',
+  title: '空明百问',
   logo: '//www.junfengshow.com/static/assets/logo.png',
   favicon: '//www.junfengshow.com/static/favicon.png',
 
@@ -16,6 +16,12 @@ export default defineConfig({
   base: '/',
   navs: [
     { path: '/base', title: '基础' },
+    { path: '/network', title: '网络' },
+    { path: '/frame', title: '框架' },
+    { path: '/tools', title: '工具' },
+    { path: '/coding', title: '编程题' },
+    { path: '/synthesize', title: '综合' },
+    { path: '/list', title: '题单' },
   ],
   // menus: {
   // },
