@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 // Number.prototype.plus = function (a) {
@@ -7,12 +7,19 @@ import { Link } from 'react-router-dom';
 // var a = 2;
 // console.log(a.plus(1))
 export default () => {
+  useEffect(() => {
+    
+  }, [])
   return (
-    <ul>
-      <li><Link to="/binary">二进制</Link></li>
-      <li><Link to="/obj">对象</Link></li>
-      <li><Link to="/graph">图</Link></li>
-    </ul>
+    <div>
+      <ul>
+        <li><Link to="/binary">二进制</Link></li>
+        <li><Link to="/obj">对象</Link></li>
+        <li><Link to="/graph">图</Link></li>
+        <li><Link to="/hooks">hooks</Link></li>
+      </ul>
+
+    </div>
   )
 }
 

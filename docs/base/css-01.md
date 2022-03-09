@@ -1,9 +1,8 @@
 ---
 title: css-1
-order: 2
 group:
   title: css基础
-  order: 1
+  order: 3
 ---
 
 ### 1.圣杯布局和双飞翼布局的理解和区别，并用代码实现
@@ -15,7 +14,7 @@ section{ height: 100%;  overflow: hidden; clear: both; }
 ```
 ```jsx
 import React from 'react';
-import { Css1 } from '@/components';
+import { Css1 } from '../components';
 export default () => {
   return (
     <Css1 />
