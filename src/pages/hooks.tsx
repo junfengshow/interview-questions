@@ -1,19 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-setTimeout(() => {
-  console.log('setTimeout111')
-})
-
-new Promise((resolve) => {
-  resolve('')
-})
-.then(() => {
-  console.log('then')
-  setTimeout(() => {
-    console.log('setTimeout222')
-  })
-})
-
 const Hooks = () => {
   const [age, setAge] = useState(0);
   const [name, setName] = useState('zhangsan');
@@ -23,7 +9,24 @@ const Hooks = () => {
     setTimeout(() => {
       console.log('age', age);
     }, 1000)
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      console.log('setTimeout111')
+    })
+    
+    new Promise((resolve) => {
+      resolve('')
+    })
+    .then(() => {
+      console.log('then')
+      setTimeout(() => {
+        console.log('setTimeout222')
+      })
+    });
   }, [])
+
   return (
     <div>
       <a onClick={() => {

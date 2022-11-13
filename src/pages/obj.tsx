@@ -120,7 +120,7 @@ Single.getInstance = function () {
   }
 
   const s = new SubType('zhangsan');
-  s.showName();
+  // s.showName();
 })();
 
 ;(() => {

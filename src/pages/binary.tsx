@@ -21,7 +21,7 @@ import { NoLanes, SyncLane, DefaultLanes } from '@/constant/lanes';
    * 
    */
   // 二进制 加法
-  console.log('a + b =', a + b);
+  // console.log('a + b =', a + b);
   // 不记进位的和
   let sum = a;
   // 进位
@@ -32,7 +32,7 @@ import { NoLanes, SyncLane, DefaultLanes } from '@/constant/lanes';
     sum = _sum;
     move = _move;
   }
-  console.log('sum = ', sum); 
+  // console.log('sum = ', sum); 
 })(8, 8);
 class Binary extends React.Component {
   componentDidMount () {
